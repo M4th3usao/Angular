@@ -5,5 +5,14 @@
         { "id": 3, "name": "Brutus", "type": "Horse", "age": 12},
         { "id": 4, "name": "Lacoste", "type": "Alligator", "age": 4},
         { "id": 5, "name": "Baco", "type": "Bird", "age": 4}
+    ],
+    "cars": [
+        { "id:": 1, "name": "BMW M2 Competition", "type": "Coupe", "age": 2019, "color": "San Marino Blue"},
+        { "id:": 2, "name": "Audi RS6 Avant ", "type": "Wagon", "age": 2022, "color": "Daytona Gray"},
+        { "id:": 3, "name": "Mercedes C63 AMG Black Series", "type": "Coupe", "age": 2008, "color": "Matte Black"},
+        { "id:": 4, "name": "Ferrari F430 Spider", "type": "Coupe", "age": 2009, "color": "Gialo Modena"},
+        { "id:": 5, "name": "Lamborghini Urus", "type": "SUV", "age": 2021, "color": "Orange"}
+
     ]
+
 }
