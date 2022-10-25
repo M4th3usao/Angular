@@ -10,6 +10,7 @@ import { Car } from '../components/Car';
 })
 export class ListService {
   private apiUrl = 'http://localhost:3000/animals'
+  private apiUrlCar = 'http://localhost:3000/cars'
 
   constructor(private http: HttpClient) { }
 
@@ -25,6 +26,6 @@ export class ListService {
   }
 
   getAllCars(): Observable<Car[]> {
-    return this.http.get<Car[]>(this.apiUrl)
+    return this.http.get<Car[]>(this.apiUrlCar)
   }
 }
