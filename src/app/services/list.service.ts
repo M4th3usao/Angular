@@ -14,9 +14,9 @@ export class ListService {
 
   constructor(private http: HttpClient) { }
 
-  remove(animals: Animal[], animal: Animal){
-    return animals.filter((a) => animal.name !== a.name);
-  }
+  remove(id: number){
+    return this.http.delete<Animal>(`${this.apiUrl}/${id}`);//exclusão do id pelo number
+  }//apaga de fato um item no banco de dados
   removeCar(cars: Car[], car: Car){
     return cars.filter((a) => car.name !== a.name);
   }
